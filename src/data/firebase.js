@@ -18,7 +18,7 @@ const firebaseConfig = {
 if(!fbAppli.apps.length) {
   fbAppli.initializeApp(firebaseConfig);
 }
-
+//
 // Initialiser Firestore
 export const bd = fbAppli.firestore();
 /******* Ex#3 - Étape C ********************************/ 

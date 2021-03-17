@@ -36,5 +36,5 @@ export default function Produit({etatPanier, id, nom, prix}) {
       </div>
       <BtnAjoutPanier onClick={ajouterPanier} qte={qte} texte={texte} classeCss={classeCss} />
     </li>
-  );
+  ); 
 }
